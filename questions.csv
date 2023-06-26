@@ -1,0 +1,31 @@
+question,op1,op2,op3,op4,ans,lvl
+"Which one is NOT a legal variable name?","exit","end","break","stop","break",1
+"Which of the following statements is used to define a class in Python?","class","def","function","object","class",1
+"Which operator is used for exponentiation in Python?","^","*","/","**","**",1
+"How do you check the length of a string in Python?","len(string)","count(string)","size(string)","length(string)","len(string)",1
+"How do you convert a string to uppercase in Python?","string.upper()","string.to_uppercase()","string.uppercase()","string.case_upper()","string.upper()",1
+"Which built-in function can be used to get the user input in Python?","input()","get_input()","user_input()","read_input()","input()",1
+"How do you remove an item from a list in Python?","list.remove(item)","list.pop(item)","list.delete(item)","list.clear(item)","list.remove(item)",1
+"Which of the following is the correct way to write a comment in Python?","/* This is a comment */","// This is a comment","# This is a comment","<!-- This is a comment -->","# This is a comment",1
+"How do you create a variable in Python?","var x = 5","x = 5","int x = 5","set x = 5","x = 5",1
+"How do you check if a key exists in a dictionary in Python?","key_exists(key)","dictionary.check_key(key)","key in dictionary","dictionary.has_key(key)","key in dictionary",1
+"How do you check if a variable is of a specific data type in Python?","type(variable) == data_type","variable.type() == data_type","isinstance(variable, data_type)","variable.is_type(data_type), "isinstance(variable, data_type)",2
+"How do you open a file in Python for reading?","file = open('filename.txt', 'r')","file = open('filename.txt', 'w')","file = open('filename.txt', 'a')","file = open(""filename.txt"", ""x"")","file = open(""filename.txt"", ""r"")",2
+"How do you iterate over a dictionary in Python?","for key in dictionary:","for value in dictionary.values():","for key, value in dictionary.items():","All of the above","All of the above",2
+"How do you check if a file exists in Python?","os.file_exists(filename)","os.path.exists(filename)","file.exists(filename)","file.check_exists(filename)","os.path.exists(filename)",2
+"How do you remove all occurrences of an element from a list in Python?","list.remove(element)","list.delete(element)","list.clear(element)","list = [x for x in list if x != element]","list = [x for x in list if x != element]",2
+"How do you check if a string contains only alphanumeric characters in Python?","string.isalpha()","string.isdigit()","string.isalnum()","string.isnumeric()","string.isalnum()",2
+"How do you sort a list in descending order in Python?","list.sort(reverse=True)","list.reverse()","sorted_list = sorted(list, reverse=True)","All of the above","sorted_list = sorted(list, reverse=True)",2
+"How do you copy a list in Python?","new_list = list.copy()","new_list = list[:]","new_list = list(list)","new_list = list.copy(list)","new_list = list[:]",2
+"How do you round a floating-point number to a specified number of decimal places in Python?","round(number, decimal_places)","number.round(decimal_places)","number = number.round(decimal_places)","round.number(decimal_places)","round(number, decimal_places)",2
+"How do you remove an item from a list in Python?","list.remove(item)","list.pop(item)","list.delete(item)","list.clear(item)","list.remove(item)",2
+"How do you convert a list of tuples into a dictionary in Python?","dict(list)","dict.from_list(list)","{key: value for key, value in list}","dict(list.items())","dict(list.items())",3
+"How do you measure the execution time of a code block in Python?","Using the time.sleep() function","Using the time.clock() function","Using the time.time() function","Using the time.measure() function","Using the time.time() function",3
+"How do you perform matrix multiplication in Python using NumPy?","numpy.multiply(matrix1, matrix2)","numpy.dot(matrix1, matrix2)","numpy.product(matrix1, matrix2)","numpy.mul(matrix1, matrix2)","numpy.dot(matrix1, matrix2)",3
+"How do you define a recursive function in Python?","By calling the function within itself","By using the recursive keyword","By using the recurse decorator","By setting the recursion flag to True","By calling the function within itself",3
+"How do you define a static method in a class in Python?","Using the @staticmethod decorator","Using the static keyword","Using the @classmethod decorator","Using the self keyword","Using the @staticmethod decorator",3
+"How do you raise a custom exception in Python?","Using the assert keyword","Using the raise keyword","Using the throw keyword","Using the error keyword","Using the raise keyword",3
+"How do you define a private variable in a class in Python?","By prefixing the variable name with an underscore ()","By prefixing the variable name with a double underscore (__)","By prefixing the variable name with a single underscore ()","By suffixing the variable name with an underscore (_)","By prefixing the variable name with a double underscore (__)",3
+"How do you define a generator function in Python?","Using the def keyword with a normal function","Using the yield keyword inside a normal function","Using the generator keyword","Using the yield keyword with a normal function","Using the yield keyword with a normal function",3
+"How do you round a floating-point number to a specified number of decimal places in Python?","round(number, decimal_places)","number.round(decimal_places)","number = number.round(decimal_places)","round.number(decimal_places)","round(number, decimal_places)",3
+"How do you convert a string to a datetime object in Python?","datetime.strptime(string, format)","datetime.convert(string, format)","datetime.parse(string, format)","datetime.to_datetime(string, format)","datetime.strptime(string, format)",3
